@@ -67,7 +67,7 @@ const PolicyHoldersView = () => {
             policyHolders = [
               ...policyHolders,
               {
-                key,
+                key: 'Address',
                 value: getFormattedAddress(value as AddressType),
                 hasTableDivider: true,
                 index,
